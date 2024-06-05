@@ -26,6 +26,7 @@ server 127.0.0.1:8072;
 
 server {
 listen 80;
+#Here server_name value can be a domain name or a ip address 
 server_name odoomates.tech www.odoomates.tech;
 
 proxy_read_timeout 720s;
